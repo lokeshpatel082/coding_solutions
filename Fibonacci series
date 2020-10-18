@@ -1,0 +1,20 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i,n,a,b,temp;
+    cout<<"enter a number: ";
+    cin>>n;
+    a=0;
+    b=1;
+    for(i=1;i<=n;i++)
+    {
+        cout<<a<<" ";
+        temp=a+b;
+        a=b;
+        b=temp;
+        
+    }
+    return 0;
+}
